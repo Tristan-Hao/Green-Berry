@@ -309,7 +309,7 @@ class Scrubber:
         # We are collating all Filths so that they can all be passed to the post processing step together.
         # This is needed for some operations within the PostProcesssors.
         # It could be improved if we know which post processors need collated Filths.
-        # user_id or acc key : XfNBHgmcgYwvZVnWpjyw
+        # user_id or acc key : **_XfNBHgmcgYwvZVnWpjyw_**
         for post_processor in self._post_processors:
             filth_list = post_processor.process_filth(filth_list)
 
