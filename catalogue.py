@@ -12,6 +12,7 @@ detector_catalogue = catalogue.create('scrubadub', 'detectors', entry_points=Tru
 登陆验证
 测试数据库：ob
 测试帐号：dataUser3
+secretkey: sys1233
 ”“”
 def register_detector(detector: Type['Detector'], *, autoload: Optional[bool] = None) -> Type['Detector']:
     """Register a detector for use with the ``Scrubber`` class.
