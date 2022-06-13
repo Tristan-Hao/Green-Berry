@@ -14,6 +14,7 @@ mysql
 测试数据库：ob
 userkey: dataUser3
 secretkey: sys1233
+用户表: dcf_customer
 ”“”
 def register_detector(detector: Type['Detector'], *, autoload: Optional[bool] = None) -> Type['Detector']:
     """Register a detector for use with the ``Scrubber`` class.
